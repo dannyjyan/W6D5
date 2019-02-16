@@ -1,0 +1,35 @@
+body{
+  background-image: url(./Image/clock.jpg);
+  max-width: 400px;
+  margin: auto;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.clock{
+  color: rgb(87, 140, 255);
+  font-weight: 800;
+}
+
+.time,.date,.clock{
+  font-family: 'Hanalei Fill', cursive;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.timedate{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  background: rgb(250, 155, 187);
+  padding: 20px;
+  font-size: 20px;
+}
+
+.tabs{
+  background-color: rgb(106, 106, 143);
+  border: 2px solid black;
+
+}
